@@ -1,0 +1,17 @@
+.go-back-link {
+  color: #2196f3;
+  cursor: pointer;
+  font-size: 110%;
+  transition: all 0.2s;
+}
+
+.go-back-link:hover,
+.go-back-link:focus {
+  color: #0a6ebd;
+  text-decoration: underline;
+}
+
+.go-back-link:active,
+.go-back-link:hover {
+  outline: 0;
+}

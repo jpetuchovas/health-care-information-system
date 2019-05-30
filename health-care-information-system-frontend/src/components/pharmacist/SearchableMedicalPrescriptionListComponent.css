@@ -1,0 +1,27 @@
+.green-checkbox input[type='checkbox']:hover {
+  cursor: default;
+}
+
+.green-checkbox input[type='checkbox']:focus:after,
+.green-checkbox .checkbox input[type='checkbox']:focus:after,
+.green-checkbox .checkbox-inline input[type='checkbox']:focus:after {
+  border-color: #8bc34a;
+  cursor: default;
+}
+
+.green-checkbox input[type='checkbox']:checked:after,
+.green-checkbox .checkbox input[type='checkbox']:checked:after,
+.green-checkbox .checkbox-inline input[type='checkbox']:checked:after {
+  background-color: #8bc34a;
+  border-color: #8bc34a;
+}
+
+.green-checkbox .checkbox label {
+  cursor: default;
+}
+
+@media only screen and (min-width: 768px) {
+  .right-aligned-text {
+    text-align: right;
+  }
+}

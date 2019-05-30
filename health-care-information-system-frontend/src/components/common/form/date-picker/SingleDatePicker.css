@@ -1,0 +1,10 @@
+.daterangepicker td.active.start-date,
+.daterangepicker td.active.start-date:hover,
+.daterangepicker td.active.end-date,
+.daterangepicker td.active.end-date:hover {
+  background-color: #2196f3;
+}
+
+.daterangepicker_input {
+  display: none;
+}

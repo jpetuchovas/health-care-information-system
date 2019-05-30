@@ -1,0 +1,33 @@
+.table-hover > tbody > tr,
+.table-hover > tbody > tr > th,
+.table-hover > tbody > tr > td {
+  transition: all 0s, background-color 0.2s;
+}
+
+@media only screen and (max-width: 768px) {
+  .small-device-card {
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    margin: auto;
+    padding-bottom: 40px;
+    padding-left: 30px !important;
+    padding-right: 30px;
+    padding-top: 40px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 9999;
+  }
+
+  .small-device-card > .panel {
+    flex: 1;
+    overflow-y: auto;
+  }
+
+  .small-device-card > .panel > .panel-body {
+    max-height: none !important;
+    overflow-y: hidden !important;
+  }
+}

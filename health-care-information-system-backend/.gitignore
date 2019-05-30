@@ -1,0 +1,45 @@
+# production
+/target
+
+# build
+/src/main/resources/public/*
+!/src/main/resources/public/.gitkeep
+# include favicon.ico
+!/src/main/resources/public/static
+/src/main/resources/public/static/*
+!/src/main/resources/public/static/favicon.ico
+
+# test
+/src/test/resources/static
+/src/test/resources/index.html
+/src/test/resources/service-worker.js
+/src/test/resources/asset-manifest.json
+
+# logs
+*.log
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDEA
+.idea
+*.iml
+*.ipr
+*.iws
+/out
+
+# Eclipse
+.settings
+.classpath
+.project
+/bin
+
+# VS Code
+.vscode
+
+# Testing
+geckodriver

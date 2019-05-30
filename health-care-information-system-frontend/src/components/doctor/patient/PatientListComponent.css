@@ -1,0 +1,5 @@
+@media (max-width: 768px) {
+  .download-button.pull-right {
+    float: none !important;
+  }
+}
